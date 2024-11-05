@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import SocailLinks from "./SocialLinks";
 import Subscribe from "./Subscribe";
 import Footer from "./Footer";
+import Video from "./Video";
 import ShadowThorn from "../images/Shadow Thorn.jpg";
 import AIAgent from "../images/AI agent.jpg";
 import DiscoverMagic from "../images/dicover magic.jpg";
@@ -64,7 +65,7 @@ const Landing = () => {
           Online with its adaptive gameplay, evolving skills, and infinite
           planet landscape the game grows with you!
         </p>
-        <div className="place-items-center pb-10">{/* video */}</div>
+        <div className="place-items-center px-40 lg:px-96 pb-10"><Video /></div>
       </div>
       <div className="">
         <div className="grid grid-cols-1 md:grid-cols-2">
